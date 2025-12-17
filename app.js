@@ -45,14 +45,14 @@ app.get("/", (req, res) => {
 })
 app.get("/bacheca", (req, res) => {
     console.log("sono console log dei post");
-
+    const contatore = posts.length
     const postList = posts.map((post) => ({
         title: post.title,
         content: post.content,
         imageUrl: post.path,
-        tags: post.tags
+        tags: post.tags,
+        totalePost: contatore
     }))
-
     res.json(postList)
 })
 
