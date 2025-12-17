@@ -13,28 +13,28 @@ const posts = [
         tags: ["animals", "heroes", "addictions"]
     },
     {
-        title: "I Am BatMan",
-        content: "storia di un pipistrello ubriaco",
+        title: "SuperErrori",
+        content: "quali sono gli errori piu comuni da non commettere?",
         path: "images/cracker_barbabietola.jpeg",
-        tags: ["animals", "heroes", "addictions"]
+        tags: ["guide", "heroes", "errors"]
     },
     {
-        title: "I Am BatMan",
-        content: "storia di un pipistrello ubriaco",
+        title: "THORneranno gli Avengers?",
+        content: "vedremo di nuovo gli avengers? o ci dovremo accontentare dei nuovi avengers?",
         path: "images/pane_fritto_dolce.jpeg",
-        tags: ["animals", "heroes", "addictions"]
+        tags: ["Thor", "avengers", "new avengers", "heroes"]
     },
     {
-        title: "I Am BatMan",
-        content: "storia di un pipistrello ubriaco",
+        title: "Bootstrap:l'eroe moderno",
+        content: "è un uomo?è un aereo? NO! è MatteoStrap",
         path: "images/pasta_barbabietola.jpeg",
-        tags: ["animals", "heroes", "addictions"]
+        tags: ["MatteoStrap", "heroes", "Bootstrap-addicted", "modern-heroes"]
     },
     {
-        title: "I Am BatMan",
-        content: "storia di un pipistrello ubriaco",
+        title: "R.I.P. programmatore",
+        content: "Nulla ha potuto neanche superman, il suo cuore non ha resistito alla terza volta che qualcuno chiamava Javascript,JAVA!!!",
         path: "images/torta_paesana.jpeg",
-        tags: ["animals", "heroes", "addictions"]
+        tags: ["programmatore", "heroes", "Superman", "java", "javascript", "morti-illustri"]
     }
 ]
 
