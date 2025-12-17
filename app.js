@@ -3,35 +3,37 @@ import express from "express"
 const app = express()
 const port = 3000
 
+app.use(express.static("public"))
+
 const posts = [
     {
         title: "I Am BatMan",
         content: "storia di un pipistrello ubriaco",
-        path: "./BOH",
+        path: "images/ciambellone.jpeg",
         tags: ["animals", "heroes", "addictions"]
     },
     {
         title: "I Am BatMan",
         content: "storia di un pipistrello ubriaco",
-        path: "./BOH",
+        path: "images/cracker_barbabietola.jpeg",
         tags: ["animals", "heroes", "addictions"]
     },
     {
         title: "I Am BatMan",
         content: "storia di un pipistrello ubriaco",
-        path: "./BOH",
+        path: "images/pane_fritto_dolce.jpeg",
         tags: ["animals", "heroes", "addictions"]
     },
     {
         title: "I Am BatMan",
         content: "storia di un pipistrello ubriaco",
-        path: "./BOH",
+        path: "images/pasta_barbabietola.jpeg",
         tags: ["animals", "heroes", "addictions"]
     },
     {
         title: "I Am BatMan",
         content: "storia di un pipistrello ubriaco",
-        path: "./BOH",
+        path: "images/torta_paesana.jpeg",
         tags: ["animals", "heroes", "addictions"]
     }
 ]
